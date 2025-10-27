@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box; /* ensures padding + borders don’t make boxes grow bigger than the set width/height. */
+}
+ body {
+    background-color: rgb(98, 60, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*means body takes full screen height.*/
+    font-family: Arial, sans-serif;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+h4{
+    color: rgb(45, 45, 148);
+    text-align: center;
+}
+.game {
+    text-align: center;
+    background-color: azure;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.boxes {
+    display: grid;        /*display: grid; → allows multi-row layouts easily.*/                     
+    grid-template-columns: repeat(3, 100px);       /*grid-template-columns: repeat(3, 100px); → makes 3 boxes per row, each 100px wide → perfect 3×3 grid.*/
+    gap: 10px;    
+    justify-content: center;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    border: 2px solid bisque;
+    border-radius: 8px;
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;  /*shows clickable hand icon.*/
+    transition: 0.2s;
+}
+
+.box:hover {
+    background-color: rgb(255, 239, 200); 
+}
+#reset-button{
+    margin: 20px;
+    padding: 15px;
+    font-size: 15px;
+    background-color: rgb(161, 161, 231);
+    color:black;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+}
