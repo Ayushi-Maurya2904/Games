@@ -37,3 +37,10 @@ Each game folder contains its own preview image (e.g., `game.png`) showing how i
 1. Download or clone this repository:
    ```bash
    git clone https://github.com/Ayushi-Maurya2904/Games.git
+
+---
+
+---
+
+👩‍💻 Built with ❤️ by [Ayushi Maurya](https://github.com/Ayushi-Maurya2904)
+
