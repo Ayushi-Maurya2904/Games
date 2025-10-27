@@ -3,6 +3,8 @@
 Welcome to my mini **Web Games Collection** — a set of fun, beginner-friendly games built using **HTML, CSS, and JavaScript**.  
 Each game has its own folder with clean code, a README, and a live demo-ready structure.
 
+---
+
 🌱 About This Project
 
 This repo is part of my journey to master frontend fundamentals through creative mini-projects.
@@ -34,11 +36,7 @@ Each game folder contains its own preview image (e.g., `game.png`) showing how i
 ---
 
 ## 🚀 How to Play
-1. Download or clone this repository:
-   ```bash
-   git clone https://github.com/Ayushi-Maurya2904/Games.git
-
----
+🔗 Live Demo: [Click here to play!](https://ayushi-maurya2904.github.io/Games/)
 
 ---
 
